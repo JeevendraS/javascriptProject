@@ -1,0 +1,70 @@
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: HeadingNowVar;
+    color: #fff;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+/*
+#page1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#page1 h1{
+    margin-top: -10%;
+    text-transform: uppercase;
+    font-size: 50vw;
+    white-space: nowrap;
+    font-weight: 900;
+    font-stretch: 400%;
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(8, 119, 247);
+} */
+
+/* from here we start second animation*/
+
+#blackplate{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #0e0e5e99;
+    overflow: hidden;
+}
+#blackplate h1{
+    font-size: 20vw;
+    font-stretch: 200%;
+    font-weight: 500;
+    text-shadow: #000;
+}
+#greenplate{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: aquamarine;
+}
+#whiteplate{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: #fff;
+}
+
+

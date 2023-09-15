@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <audio preload="auto" id="audio" src="bubbleAudio.mpeg"></audio>
+        <div id="panel">
+            <div id="ptop">
+                <div class="elems">
+                    <h4>hit</h4>
+                    <div class="box">
+                        <h2 id="hit">00</h2>
+                    </div>
+                </div>                       
+                <div class="elems">
+                    <h4>time</h4>
+                    <div class="box">
+                        <h2 id="timer">00</h2>
+                    </div>
+                </div>                       
+                <div class="elems">
+                    <h4>score</h4>
+                    <div class="box">
+                        <h2 id="score">00</h2>
+                    </div>
+                </div>                       
+                <div class="elems">
+                    <h4>high<span>Score</span></h4>
+                    <div class="box">
+                        <h2 id="highScore">00</h2>
+                    </div>
+                </div>                       
+            </div>
+            <div id="pbot">
+                <div id="bottom">
+                   <div class="bubble">5</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
